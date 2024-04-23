@@ -37,5 +37,6 @@ jobs:
           # These license must be from this list: https://www.apache.org/legal/resolved.html
           # Special notice for GPL licenses: https://www.apache.org/licenses/GPL-compatibility.html
           # Find SPDX identifiers here: https://spdx.org/licenses/
-          allow-licenses: >
-            Apache-2.0, BSD-3-Clause, MIT
+          allow-licenses: Apache-2.0, BSD-3-Clause, ISC, MIT
+          base-ref: c0b36f487681c6c5f05a09738913e7454e515238
+          head-ref: refs/heads/master
