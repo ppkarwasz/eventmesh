@@ -16,7 +16,7 @@
 #
 
 name: 'License Check'
-on: [pull_request, workflow_dispatch]
+on: [pull_request]
 
 permissions:
   contents: read
@@ -37,5 +37,4 @@ jobs:
           # These license must be from this list: https://www.apache.org/legal/resolved.html
           # Special notice for GPL licenses: https://www.apache.org/licenses/GPL-compatibility.html
           # Find SPDX identifiers here: https://spdx.org/licenses/
-          allow-licenses: >
-            Apache-2.0, BSD-3-Clause, MIT
+          allow-licenses: Apache-2.0, BSD-3-Clause, MIT
